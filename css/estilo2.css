@@ -1,0 +1,195 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(134, 3, 3);
+}
+
+/* remove a linha dos links */
+a {
+    text-decoration: none;
+}
+
+/* esconde as ancoras da tela */
+a.links {
+    display: none;
+}
+
+.content {
+    width: 500px;
+    min-height: 560px;
+    margin: 0px auto;
+    position: relative;
+}
+
+h1 {
+    font-size: 50px;
+    color: #f8f8f8;
+    padding: 1px 0 10px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+h1:after {
+    content: ' ';
+    display: flex;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(left, rgba(147, 184, 189, 0) 0%, rgba(147, 184, 189, 0.8) 20%, rgba(147, 184, 189, 1) 53%, rgba(147, 184, 189, 0.8) 79%, rgba(147, 184, 189, 0) 100%);
+    background: linear-gradient(left, rgba(147, 184, 189, 0) 0%, rgba(147, 184, 189, 0.8) 20%, rgba(147, 184, 189, 1) 53%, rgba(147, 184, 189, 0.8) 79%, rgba(147, 184, 189, 0) 100%);
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.content p:first-child {
+    margin: 0px;
+}
+
+label {
+    color: #ffffff;
+    position: relative;
+}
+
+/* placeholder */
+::-webkit-input-placeholder {
+    color: #bebcbc;
+    font-style: italic;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #bebcbc;
+    font-style: italic;
+}
+
+input {
+    outline: none;
+}
+
+/*estilo dos input,  menos o checkbox */
+input:not([type="checkbox"]) {
+    width: 95%;
+    margin-top: 4px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(107, 107, 107, 0.6) inset;
+    box-shadow: 0px 1px 4px 0px rgba(116, 116, 116, 0.6) inset;
+
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+/*estilo do botão submit */
+input[type="button"] {
+    width: 100% !important;
+    cursor: pointer;
+    background: rgb(134, 3, 3);
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    text-shadow: 0 1px 1px rgb(140, 143, 158);
+
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+    transition: all 0.1s linear;
+}
+
+/*estilo do botão submit no hover */
+input[type="button"]:hover {
+    background: #000000;
+}
+
+.link {
+    position: absolute;
+    background: #e1eaeb;
+    color: #7f7c7c;
+    left: 0px;
+    height: 20px;
+    width: 440px;
+    padding: 17px 30px 20px 30px;
+    font-size: 16px;
+    text-align: right;
+    border-top: 1px solid #dbe5e8;
+
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.link a {
+    font-weight: bold;
+    background: #f7f8f1;
+    padding: 6px;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    border: 1px solid #000000;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.link a:hover {
+    color: #39bfd7;
+    background: #f7f7f7;
+    border: 1px solid #4ab3c6;
+}
+
+.content h1 span {
+    color:whitesmoke;
+    font-style:italic;
+}
+
+body.links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.size 
+{
+ position:center;
+ top:20%;
+ right:50px;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ flex-direction:unset ;
+ 
+}
+.size li
+{
+  list-style:none;
+}
+
+.size li a
+{
+display: inline-block;
+margin: 20px;
+transform: scale(0.7);
+border-radius:1px;
+}
+.cadastrar h2 span{
+  position:center;
+  justify-content:center;
+  align-items:center;
+  display:flex;
+  transform:scale3d(2.0);
+}
+
